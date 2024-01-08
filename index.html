@@ -144,16 +144,16 @@
         </thead>
         <tbody>
             <tr>
-                <td>:hover *</td>
-                <td>A pseudo-class used to style elements when the mouse is over them (a --> a:hover).</td>
+                <td>:link, :visited, :hover, :active *</td>
+                <td>Pseudo-classes used to style elements, especially links, when the mouse is over them (link -> visited -> hover -> active).</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
+                <td>cursor **</td>
+                <td>Used to control the behavior of the mouse appearance when hovering over an element (not available on mobile).</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
+                <td>box-shadow</td>
+                <td>Gives buttons a slightly raised appearance, mostly for skeuomorphic styling</td>
             </tr>
             <tr>
                 <td></td>
@@ -163,6 +163,7 @@
     </table>
     <footer>
         <p>* This element is not a property</p>
+        <p>** Attach to the element ruleset, not element:hover ruleset. It gets the hover property by default (ex: cursor: pointer;)</p>
     </footer>
 </body>
 </html>
